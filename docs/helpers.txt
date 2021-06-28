@@ -1,0 +1,7 @@
+Executar teste com cobertura de código
+======================================
+dotnet test /p:CollectCoverage=true /p:CoverletOutputFormat=lcov /p:CoverletOutput=./lcov.info && dotnet test /p:CollectCoverage=true /p:CoverletOutput=../CoverageResults/ /p:MergeWith="../CoverageResults/coverage.json" /p:CoverletOutputFormat=\"opencover,json\" -m:1
+
+
+
+Toda vez que executa o migration, o arquivo ContextModelSnapshot.cs é refeito e remove a tag "[ExcludeCodeFromCoverage]", necessitando coloca-lá novamente logo a cima do protected

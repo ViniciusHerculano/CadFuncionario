@@ -1,0 +1,1330 @@
+{
+  "CadFuncionario.Api.dll": {
+    "D:\\Cursos\\Aulas-PontoSys\\Testes-de-Software\\CadFuncionario\\src\\CadFuncionario.Api\\Program.cs": {
+      "CadFuncionario.Api.Program": {
+        "System.Void CadFuncionario.Api.Program::Main(System.String[])": {
+          "Lines": {
+            "15": 0,
+            "16": 0,
+            "17": 0
+          },
+          "Branches": []
+        },
+        "Microsoft.Extensions.Hosting.IHostBuilder CadFuncionario.Api.Program::CreateHostBuilder(System.String[])": {
+          "Lines": {
+            "20": 1,
+            "21": 1,
+            "22": 1,
+            "23": 1,
+            "24": 2
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\Cursos\\Aulas-PontoSys\\Testes-de-Software\\CadFuncionario\\src\\CadFuncionario.Api\\Startup.cs": {
+      "CadFuncionario.Api.Startup": {
+        "Microsoft.Extensions.Configuration.IConfiguration CadFuncionario.Api.Startup::get_Configuration()": {
+          "Lines": {
+            "19": 2
+          },
+          "Branches": []
+        },
+        "System.Void CadFuncionario.Api.Startup::ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)": {
+          "Lines": {
+            "23": 2,
+            "24": 2,
+            "25": 2,
+            "26": 2
+          },
+          "Branches": []
+        },
+        "System.Void CadFuncionario.Api.Startup::Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment)": {
+          "Lines": {
+            "30": 1,
+            "31": 1,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "38": 1,
+            "40": 1,
+            "41": 1,
+            "42": 1,
+            "43": 1,
+            "44": 1,
+            "45": 1,
+            "46": 2,
+            "47": 1
+          },
+          "Branches": [
+            {
+              "Line": 31,
+              "Offset": 9,
+              "EndOffset": 11,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 31,
+              "Offset": 9,
+              "EndOffset": 68,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            }
+          ]
+        },
+        "System.Void CadFuncionario.Api.Startup::.ctor(Microsoft.Extensions.Configuration.IConfiguration)": {
+          "Lines": {
+            "14": 2,
+            "15": 2,
+            "16": 2,
+            "17": 2
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\Cursos\\Aulas-PontoSys\\Testes-de-Software\\CadFuncionario\\src\\CadFuncionario.Api\\Middlewares\\ErrorHandlingMiddleware.cs": {
+      "CadFuncionario.Api.Middlewares.ErrorHandlingMiddleware": {
+        "System.Threading.Tasks.Task CadFuncionario.Api.Middlewares.ErrorHandlingMiddleware::HandleExceptionAsync(Microsoft.AspNetCore.Http.HttpContext,System.Exception)": {
+          "Lines": {
+            "31": 0,
+            "32": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0
+          },
+          "Branches": []
+        },
+        "System.Void CadFuncionario.Api.Middlewares.ErrorHandlingMiddleware::.ctor(Microsoft.AspNetCore.Http.RequestDelegate)": {
+          "Lines": {
+            "13": 1,
+            "14": 1,
+            "15": 1,
+            "16": 1
+          },
+          "Branches": []
+        }
+      },
+      "CadFuncionario.Api.Middlewares.ErrorHandlingMiddleware/<Invoke>d__2": {
+        "System.Void CadFuncionario.Api.Middlewares.ErrorHandlingMiddleware/<Invoke>d__2::MoveNext()": {
+          "Lines": {
+            "19": 7,
+            "21": 7,
+            "22": 7,
+            "23": 7,
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "28": 7
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\Cursos\\Aulas-PontoSys\\Testes-de-Software\\CadFuncionario\\src\\CadFuncionario.Api\\Controllers\\MainController.cs": {
+      "CadFuncionario.Api.Controllers.MainController": {
+        "Microsoft.AspNetCore.Mvc.ActionResult CadFuncionario.Api.Controllers.MainController::Result(System.Object)": {
+          "Lines": {
+            "18": 7,
+            "19": 7,
+            "20": 0,
+            "22": 7,
+            "23": 0,
+            "24": 0,
+            "26": 7,
+            "27": 7
+          },
+          "Branches": [
+            {
+              "Line": 19,
+              "Offset": 19,
+              "EndOffset": 21,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 19,
+              "Offset": 19,
+              "EndOffset": 77,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 7
+            },
+            {
+              "Line": 22,
+              "Offset": 95,
+              "EndOffset": 97,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 22,
+              "Offset": 95,
+              "EndOffset": 153,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 7
+            }
+          ]
+        },
+        "System.Void CadFuncionario.Api.Controllers.MainController::.ctor(CadFuncionario.Core.Services.Interfaces.INotificationService)": {
+          "Lines": {
+            "12": 7,
+            "13": 7,
+            "14": 7,
+            "15": 7
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\Cursos\\Aulas-PontoSys\\Testes-de-Software\\CadFuncionario\\src\\CadFuncionario.Api\\Controllers\\V1\\ProfissaoController.cs": {
+      "CadFuncionario.Api.Controllers.V1.ProfissaoController": {
+        "System.Void CadFuncionario.Api.Controllers.V1.ProfissaoController::.ctor(CadFuncionario.Core.Services.Interfaces.INotificationService,CadFuncionario.Application.Interfaces.IProfissaoAppService)": {
+          "Lines": {
+            "19": 7,
+            "20": 7,
+            "21": 7,
+            "22": 7
+          },
+          "Branches": []
+        }
+      },
+      "CadFuncionario.Api.Controllers.V1.ProfissaoController/<Adicionar>d__2": {
+        "System.Void CadFuncionario.Api.Controllers.V1.ProfissaoController/<Adicionar>d__2::MoveNext()": {
+          "Lines": {
+            "26": 1,
+            "27": 1,
+            "28": 1
+          },
+          "Branches": []
+        }
+      },
+      "CadFuncionario.Api.Controllers.V1.ProfissaoController/<AdicionarStep>d__3": {
+        "System.Void CadFuncionario.Api.Controllers.V1.ProfissaoController/<AdicionarStep>d__3::MoveNext()": {
+          "Lines": {
+            "32": 1,
+            "33": 1,
+            "34": 1
+          },
+          "Branches": []
+        }
+      },
+      "CadFuncionario.Api.Controllers.V1.ProfissaoController/<Atualizar>d__4": {
+        "System.Void CadFuncionario.Api.Controllers.V1.ProfissaoController/<Atualizar>d__4::MoveNext()": {
+          "Lines": {
+            "38": 1,
+            "39": 1,
+            "40": 1
+          },
+          "Branches": []
+        }
+      },
+      "CadFuncionario.Api.Controllers.V1.ProfissaoController/<AtualizarStep>d__5": {
+        "System.Void CadFuncionario.Api.Controllers.V1.ProfissaoController/<AtualizarStep>d__5::MoveNext()": {
+          "Lines": {
+            "44": 1,
+            "45": 1,
+            "46": 1
+          },
+          "Branches": []
+        }
+      },
+      "CadFuncionario.Api.Controllers.V1.ProfissaoController/<Obter>d__6": {
+        "System.Void CadFuncionario.Api.Controllers.V1.ProfissaoController/<Obter>d__6::MoveNext()": {
+          "Lines": {
+            "50": 1,
+            "51": 1,
+            "52": 1
+          },
+          "Branches": []
+        }
+      },
+      "CadFuncionario.Api.Controllers.V1.ProfissaoController/<ObterStep>d__7": {
+        "System.Void CadFuncionario.Api.Controllers.V1.ProfissaoController/<ObterStep>d__7::MoveNext()": {
+          "Lines": {
+            "56": 1,
+            "57": 1,
+            "58": 1
+          },
+          "Branches": []
+        }
+      },
+      "CadFuncionario.Api.Controllers.V1.ProfissaoController/<ObterTodos>d__8": {
+        "System.Void CadFuncionario.Api.Controllers.V1.ProfissaoController/<ObterTodos>d__8::MoveNext()": {
+          "Lines": {
+            "62": 1,
+            "63": 1,
+            "64": 1
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\Cursos\\Aulas-PontoSys\\Testes-de-Software\\CadFuncionario\\src\\CadFuncionario.Api\\Configurations\\ServicesConfiguration.cs": {
+      "CadFuncionario.Api.Configurations.ServicesConfiguration": {
+        "System.Void CadFuncionario.Api.Configurations.ServicesConfiguration::RegisterServicesApi(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)": {
+          "Lines": {
+            "15": 2,
+            "16": 2,
+            "17": 2,
+            "18": 2,
+            "19": 2,
+            "20": 2,
+            "21": 2,
+            "22": 4,
+            "24": 2,
+            "25": 2,
+            "26": 2,
+            "27": 2,
+            "28": 2,
+            "29": 4,
+            "30": 4,
+            "32": 2,
+            "34": 2,
+            "35": 9,
+            "36": 16,
+            "38": 2,
+            "39": 2,
+            "40": 4,
+            "42": 2,
+            "43": 0,
+            "44": 0,
+            "45": 2,
+            "46": 2
+          },
+          "Branches": []
+        }
+      }
+    }
+  },
+  "CadFuncionario.Application.dll": {
+    "D:\\Cursos\\Aulas-PontoSys\\Testes-de-Software\\CadFuncionario\\src\\CadFuncionario.AppService.cs\\AppServiceBase.cs": {
+      "CadFuncionario.Application.AppServiceBase": {
+        "System.Boolean CadFuncionario.Application.AppServiceBase::Validar(TV,TE)": {
+          "Lines": {
+            "18": 12,
+            "19": 12,
+            "20": 12,
+            "21": 8,
+            "23": 4,
+            "24": 4,
+            "25": 12
+          },
+          "Branches": [
+            {
+              "Line": 20,
+              "Offset": 22,
+              "EndOffset": 24,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 8
+            },
+            {
+              "Line": 20,
+              "Offset": 22,
+              "EndOffset": 28,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 4
+            }
+          ]
+        },
+        "System.Void CadFuncionario.Application.AppServiceBase::Notify(System.String)": {
+          "Lines": {
+            "27": 1
+          },
+          "Branches": []
+        },
+        "System.Void CadFuncionario.Application.AppServiceBase::Notify(FluentValidation.Results.ValidationResult)": {
+          "Lines": {
+            "29": 12
+          },
+          "Branches": []
+        },
+        "System.Void CadFuncionario.Application.AppServiceBase::Notify(System.String,System.String)": {
+          "Lines": {
+            "31": 1
+          },
+          "Branches": []
+        },
+        "System.Void CadFuncionario.Application.AppServiceBase::.ctor(CadFuncionario.Core.Services.Interfaces.INotificationService)": {
+          "Lines": {
+            "12": 20,
+            "13": 20,
+            "14": 20,
+            "15": 20
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\Cursos\\Aulas-PontoSys\\Testes-de-Software\\CadFuncionario\\src\\CadFuncionario.AppService.cs\\ProfissaoAppService.cs": {
+      "CadFuncionario.Application.ProfissaoAppService": {
+        "System.Void CadFuncionario.Application.ProfissaoAppService::Dispose()": {
+          "Lines": {
+            "83": 7,
+            "84": 7,
+            "85": 7
+          },
+          "Branches": [
+            {
+              "Line": 84,
+              "Offset": 8,
+              "EndOffset": 10,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 84,
+              "Offset": 8,
+              "EndOffset": 13,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 7
+            }
+          ]
+        },
+        "System.Void CadFuncionario.Application.ProfissaoAppService::.ctor(CadFuncionario.Core.Services.Interfaces.INotificationService,CadFuncionario.Domain.Interfaces.Data.IProfissaoRepository)": {
+          "Lines": {
+            "17": 20,
+            "18": 20,
+            "19": 20,
+            "20": 20
+          },
+          "Branches": []
+        }
+      },
+      "CadFuncionario.Application.ProfissaoAppService/<AdicionarAsync>d__2": {
+        "System.Void CadFuncionario.Application.ProfissaoAppService/<AdicionarAsync>d__2::MoveNext()": {
+          "Lines": {
+            "24": 3,
+            "25": 3,
+            "26": 1,
+            "28": 2,
+            "29": 2,
+            "30": 3
+          },
+          "Branches": [
+            {
+              "Line": 25,
+              "Offset": 43,
+              "EndOffset": 45,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 25,
+              "Offset": 43,
+              "EndOffset": 52,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 2
+            }
+          ]
+        }
+      },
+      "CadFuncionario.Application.ProfissaoAppService/<AdicionarStepAsync>d__3": {
+        "System.Void CadFuncionario.Application.ProfissaoAppService/<AdicionarStepAsync>d__3::MoveNext()": {
+          "Lines": {
+            "33": 3,
+            "34": 3,
+            "35": 1,
+            "37": 2,
+            "38": 2,
+            "39": 3
+          },
+          "Branches": [
+            {
+              "Line": 34,
+              "Offset": 42,
+              "EndOffset": 44,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 34,
+              "Offset": 42,
+              "EndOffset": 51,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 2
+            }
+          ]
+        }
+      },
+      "CadFuncionario.Application.ProfissaoAppService/<AtualizarAsync>d__4": {
+        "System.Void CadFuncionario.Application.ProfissaoAppService/<AtualizarAsync>d__4::MoveNext()": {
+          "Lines": {
+            "42": 3,
+            "43": 3,
+            "44": 1,
+            "46": 2,
+            "47": 2,
+            "48": 3
+          },
+          "Branches": [
+            {
+              "Line": 43,
+              "Offset": 43,
+              "EndOffset": 45,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 43,
+              "Offset": 43,
+              "EndOffset": 52,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 2
+            }
+          ]
+        }
+      },
+      "CadFuncionario.Application.ProfissaoAppService/<AtualizarStepAsync>d__5": {
+        "System.Void CadFuncionario.Application.ProfissaoAppService/<AtualizarStepAsync>d__5::MoveNext()": {
+          "Lines": {
+            "51": 3,
+            "52": 3,
+            "53": 1,
+            "55": 2,
+            "56": 2,
+            "57": 3
+          },
+          "Branches": [
+            {
+              "Line": 52,
+              "Offset": 42,
+              "EndOffset": 44,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 52,
+              "Offset": 42,
+              "EndOffset": 51,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 2
+            }
+          ]
+        }
+      },
+      "CadFuncionario.Application.ProfissaoAppService/<ObterAsync>d__6": {
+        "System.Void CadFuncionario.Application.ProfissaoAppService/<ObterAsync>d__6::MoveNext()": {
+          "Lines": {
+            "60": 3,
+            "61": 3,
+            "62": 2,
+            "64": 1,
+            "65": 1,
+            "66": 3
+          },
+          "Branches": [
+            {
+              "Line": 61,
+              "Offset": 33,
+              "EndOffset": 35,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 2
+            },
+            {
+              "Line": 61,
+              "Offset": 33,
+              "EndOffset": 159,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            }
+          ]
+        }
+      },
+      "CadFuncionario.Application.ProfissaoAppService/<ObterStepAsync>d__7": {
+        "System.Void CadFuncionario.Application.ProfissaoAppService/<ObterStepAsync>d__7::MoveNext()": {
+          "Lines": {
+            "69": 3,
+            "70": 3,
+            "71": 2,
+            "73": 1,
+            "74": 1,
+            "75": 3
+          },
+          "Branches": [
+            {
+              "Line": 70,
+              "Offset": 33,
+              "EndOffset": 35,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 2
+            },
+            {
+              "Line": 70,
+              "Offset": 33,
+              "EndOffset": 159,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            }
+          ]
+        }
+      },
+      "CadFuncionario.Application.ProfissaoAppService/<ObterTodosAsync>d__8": {
+        "System.Void CadFuncionario.Application.ProfissaoAppService/<ObterTodosAsync>d__8::MoveNext()": {
+          "Lines": {
+            "78": 2,
+            "79": 2,
+            "80": 2
+          },
+          "Branches": []
+        }
+      }
+    }
+  },
+  "CadFuncionario.Core.dll": {
+    "d:\\Cursos\\Aulas-PontoSys\\Testes-de-Software\\CadFuncionario\\src\\CadFuncionario.Core\\Services\\NotificationService.cs": {
+      "CadFuncionario.Core.Services.NotificationService": {
+        "System.Void CadFuncionario.Core.Services.NotificationService::Add(CadFuncionario.Core.DomainObjects.NotificationMessage)": {
+          "Lines": {
+            "19": 0
+          },
+          "Branches": []
+        },
+        "System.Void CadFuncionario.Core.Services.NotificationService::Add(FluentValidation.Results.ValidationFailure)": {
+          "Lines": {
+            "21": 0
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.List`1<CadFuncionario.Core.DomainObjects.NotificationMessage> CadFuncionario.Core.Services.NotificationService::GetMessages()": {
+          "Lines": {
+            "23": 7
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.List`1<FluentValidation.Results.ValidationFailure> CadFuncionario.Core.Services.NotificationService::GetValidationFailures()": {
+          "Lines": {
+            "25": 7
+          },
+          "Branches": []
+        },
+        "System.Void CadFuncionario.Core.Services.NotificationService::Clear()": {
+          "Lines": {
+            "29": 7,
+            "30": 7,
+            "31": 7,
+            "32": 7
+          },
+          "Branches": []
+        },
+        "System.Void CadFuncionario.Core.Services.NotificationService::.ctor()": {
+          "Lines": {
+            "13": 7,
+            "14": 7,
+            "15": 7,
+            "16": 7
+          },
+          "Branches": []
+        }
+      }
+    },
+    "d:\\Cursos\\Aulas-PontoSys\\Testes-de-Software\\CadFuncionario\\src\\CadFuncionario.Core\\DomainObjects\\NotificationMessage.cs": {
+      "CadFuncionario.Core.DomainObjects.NotificationMessage": {
+        "System.String CadFuncionario.Core.DomainObjects.NotificationMessage::get_Message()": {
+          "Lines": {
+            "10": 0
+          },
+          "Branches": []
+        },
+        "System.Void CadFuncionario.Core.DomainObjects.NotificationMessage::.ctor(System.String)": {
+          "Lines": {
+            "5": 1,
+            "6": 1,
+            "7": 1,
+            "8": 1
+          },
+          "Branches": []
+        }
+      }
+    }
+  },
+  "CadFuncionario.Data.dll": {
+    "D:\\Cursos\\Aulas-PontoSys\\Testes-de-Software\\CadFuncionario\\src\\CadFuncionario.Data\\Context.cs": {
+      "CadFuncionario.Data.Context": {
+        "Microsoft.EntityFrameworkCore.DbSet`1<CadFuncionario.Domain.Entities.Profissao> CadFuncionario.Data.Context::get_Profissoes()": {
+          "Lines": {
+            "14": 11
+          },
+          "Branches": []
+        },
+        "Microsoft.EntityFrameworkCore.DbSet`1<CadFuncionario.Domain.Entities.StepProfissao> CadFuncionario.Data.Context::get_StepProfissoes()": {
+          "Lines": {
+            "15": 10
+          },
+          "Branches": []
+        },
+        "Microsoft.EntityFrameworkCore.DbSet`1<CadFuncionario.Domain.Entities.Funcionario> CadFuncionario.Data.Context::get_Funcionarios()": {
+          "Lines": {
+            "16": 7
+          },
+          "Branches": []
+        },
+        "System.Void CadFuncionario.Data.Context::OnModelCreating(Microsoft.EntityFrameworkCore.ModelBuilder)": {
+          "Lines": {
+            "19": 1,
+            "20": 1,
+            "21": 1,
+            "22": 1,
+            "24": 1,
+            "25": 1
+          },
+          "Branches": []
+        },
+        "System.Void CadFuncionario.Data.Context::.ctor(Microsoft.EntityFrameworkCore.DbContextOptions)": {
+          "Lines": {
+            "9": 7,
+            "10": 7,
+            "12": 7
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\Cursos\\Aulas-PontoSys\\Testes-de-Software\\CadFuncionario\\src\\CadFuncionario.Data\\Repositories\\FuncionarioRepository.cs": {
+      "CadFuncionario.Data.Repositories.FuncionarioRepository": {
+        "System.Void CadFuncionario.Data.Repositories.FuncionarioRepository::Dispose()": {
+          "Lines": {
+            "49": 0,
+            "50": 0,
+            "51": 0,
+            "52": 0
+          },
+          "Branches": []
+        },
+        "System.Void CadFuncionario.Data.Repositories.FuncionarioRepository::.ctor(CadFuncionario.Data.Context)": {
+          "Lines": {
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0
+          },
+          "Branches": []
+        }
+      },
+      "CadFuncionario.Data.Repositories.FuncionarioRepository/<AdicionarAsync>d__2": {
+        "System.Void CadFuncionario.Data.Repositories.FuncionarioRepository/<AdicionarAsync>d__2::MoveNext()": {
+          "Lines": {
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0
+          },
+          "Branches": []
+        }
+      },
+      "CadFuncionario.Data.Repositories.FuncionarioRepository/<AtualizarAsync>d__3": {
+        "System.Void CadFuncionario.Data.Repositories.FuncionarioRepository/<AtualizarAsync>d__3::MoveNext()": {
+          "Lines": {
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0
+          },
+          "Branches": []
+        }
+      },
+      "CadFuncionario.Data.Repositories.FuncionarioRepository/<ObterAsync>d__4": {
+        "System.Void CadFuncionario.Data.Repositories.FuncionarioRepository/<ObterAsync>d__4::MoveNext()": {
+          "Lines": {
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0
+          },
+          "Branches": []
+        }
+      },
+      "CadFuncionario.Data.Repositories.FuncionarioRepository/<ObterTodosAsync>d__5": {
+        "System.Void CadFuncionario.Data.Repositories.FuncionarioRepository/<ObterTodosAsync>d__5::MoveNext()": {
+          "Lines": {
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\Cursos\\Aulas-PontoSys\\Testes-de-Software\\CadFuncionario\\src\\CadFuncionario.Data\\Repositories\\ProfissaoRepository.cs": {
+      "CadFuncionario.Data.Repositories.ProfissaoRepository": {
+        "System.Void CadFuncionario.Data.Repositories.ProfissaoRepository::Dispose()": {
+          "Lines": {
+            "72": 14,
+            "73": 14,
+            "74": 14,
+            "75": 14
+          },
+          "Branches": []
+        },
+        "System.Void CadFuncionario.Data.Repositories.ProfissaoRepository::.ctor(CadFuncionario.Data.Context)": {
+          "Lines": {
+            "14": 7,
+            "15": 7,
+            "16": 7,
+            "17": 7
+          },
+          "Branches": []
+        }
+      },
+      "CadFuncionario.Data.Repositories.ProfissaoRepository/<AdicionarAsync>d__2": {
+        "System.Void CadFuncionario.Data.Repositories.ProfissaoRepository/<AdicionarAsync>d__2::MoveNext()": {
+          "Lines": {
+            "20": 1,
+            "21": 1,
+            "22": 1,
+            "23": 1
+          },
+          "Branches": []
+        }
+      },
+      "CadFuncionario.Data.Repositories.ProfissaoRepository/<AdicionarStepAsync>d__3": {
+        "System.Void CadFuncionario.Data.Repositories.ProfissaoRepository/<AdicionarStepAsync>d__3::MoveNext()": {
+          "Lines": {
+            "26": 1,
+            "27": 1,
+            "28": 1,
+            "29": 1
+          },
+          "Branches": []
+        }
+      },
+      "CadFuncionario.Data.Repositories.ProfissaoRepository/<AtualizarAsync>d__4": {
+        "System.Void CadFuncionario.Data.Repositories.ProfissaoRepository/<AtualizarAsync>d__4::MoveNext()": {
+          "Lines": {
+            "32": 1,
+            "34": 1,
+            "35": 1,
+            "36": 1,
+            "39": 1,
+            "40": 1
+          },
+          "Branches": []
+        }
+      },
+      "CadFuncionario.Data.Repositories.ProfissaoRepository/<AtualizarStepAsync>d__5": {
+        "System.Void CadFuncionario.Data.Repositories.ProfissaoRepository/<AtualizarStepAsync>d__5::MoveNext()": {
+          "Lines": {
+            "43": 1,
+            "44": 1,
+            "45": 1,
+            "46": 1
+          },
+          "Branches": []
+        }
+      },
+      "CadFuncionario.Data.Repositories.ProfissaoRepository/<ObterAsync>d__6": {
+        "System.Void CadFuncionario.Data.Repositories.ProfissaoRepository/<ObterAsync>d__6::MoveNext()": {
+          "Lines": {
+            "49": 1,
+            "50": 1,
+            "51": 1,
+            "52": 1,
+            "53": 1,
+            "54": 1
+          },
+          "Branches": []
+        }
+      },
+      "CadFuncionario.Data.Repositories.ProfissaoRepository/<ObterStepAsync>d__7": {
+        "System.Void CadFuncionario.Data.Repositories.ProfissaoRepository/<ObterStepAsync>d__7::MoveNext()": {
+          "Lines": {
+            "57": 1,
+            "58": 1,
+            "59": 1,
+            "60": 1,
+            "61": 1
+          },
+          "Branches": []
+        }
+      },
+      "CadFuncionario.Data.Repositories.ProfissaoRepository/<ObterTodosAsync>d__8": {
+        "System.Void CadFuncionario.Data.Repositories.ProfissaoRepository/<ObterTodosAsync>d__8::MoveNext()": {
+          "Lines": {
+            "64": 1,
+            "65": 1,
+            "66": 1,
+            "67": 1,
+            "68": 1,
+            "69": 1
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\Cursos\\Aulas-PontoSys\\Testes-de-Software\\CadFuncionario\\src\\CadFuncionario.Data\\Maps\\FuncionarioMap.cs": {
+      "CadFuncionario.Data.Maps.FuncionarioMap": {
+        "System.Void CadFuncionario.Data.Maps.FuncionarioMap::Configure(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder`1<CadFuncionario.Domain.Entities.Funcionario>)": {
+          "Lines": {
+            "10": 1,
+            "11": 1,
+            "13": 1,
+            "14": 1,
+            "15": 1,
+            "17": 1,
+            "18": 1,
+            "19": 1,
+            "20": 1,
+            "21": 1,
+            "23": 1,
+            "24": 1
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\Cursos\\Aulas-PontoSys\\Testes-de-Software\\CadFuncionario\\src\\CadFuncionario.Data\\Maps\\ProfissaoMap.cs": {
+      "CadFuncionario.Data.Maps.ProfissaoMap": {
+        "System.Void CadFuncionario.Data.Maps.ProfissaoMap::Configure(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder`1<CadFuncionario.Domain.Entities.Profissao>)": {
+          "Lines": {
+            "10": 1,
+            "11": 1,
+            "13": 1,
+            "14": 1,
+            "16": 1,
+            "17": 1
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\Cursos\\Aulas-PontoSys\\Testes-de-Software\\CadFuncionario\\src\\CadFuncionario.Data\\Maps\\StepProfissaoMap.cs": {
+      "CadFuncionario.Data.Maps.StepProfissaoMap": {
+        "System.Void CadFuncionario.Data.Maps.StepProfissaoMap::Configure(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder`1<CadFuncionario.Domain.Entities.StepProfissao>)": {
+          "Lines": {
+            "10": 1,
+            "11": 1,
+            "13": 1,
+            "14": 1,
+            "15": 1,
+            "17": 1,
+            "18": 1,
+            "20": 1,
+            "21": 1
+          },
+          "Branches": []
+        }
+      }
+    }
+  },
+  "CadFuncionario.Domain.dll": {
+    "D:\\Cursos\\Aulas-PontoSys\\Testes-de-Software\\CadFuncionario\\src\\CadFuncionario.Domain\\Entities\\Funcionario.cs": {
+      "CadFuncionario.Domain.Entities.Funcionario": {
+        "System.Guid CadFuncionario.Domain.Entities.Funcionario::get_FuncionarioId()": {
+          "Lines": {
+            "19": 10
+          },
+          "Branches": []
+        },
+        "System.Guid CadFuncionario.Domain.Entities.Funcionario::get_StepProfissaoId()": {
+          "Lines": {
+            "20": 15
+          },
+          "Branches": []
+        },
+        "System.String CadFuncionario.Domain.Entities.Funcionario::get_Cpf()": {
+          "Lines": {
+            "21": 12
+          },
+          "Branches": []
+        },
+        "System.String CadFuncionario.Domain.Entities.Funcionario::get_Rg()": {
+          "Lines": {
+            "22": 12
+          },
+          "Branches": []
+        },
+        "System.String CadFuncionario.Domain.Entities.Funcionario::get_Nome()": {
+          "Lines": {
+            "23": 12
+          },
+          "Branches": []
+        },
+        "System.String CadFuncionario.Domain.Entities.Funcionario::get_Ctps()": {
+          "Lines": {
+            "24": 12
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.DateTime> CadFuncionario.Domain.Entities.Funcionario::get_DataNascimento()": {
+          "Lines": {
+            "25": 23
+          },
+          "Branches": []
+        },
+        "CadFuncionario.Domain.Entities.StepProfissao CadFuncionario.Domain.Entities.Funcionario::get_StepProfissao()": {
+          "Lines": {
+            "27": 0
+          },
+          "Branches": []
+        },
+        "System.Void CadFuncionario.Domain.Entities.Funcionario::AlterarStep(System.Guid)": {
+          "Lines": {
+            "30": 1,
+            "31": 1,
+            "32": 1
+          },
+          "Branches": []
+        },
+        "System.Void CadFuncionario.Domain.Entities.Funcionario::AlterarDataNascimento(System.Nullable`1<System.DateTime>)": {
+          "Lines": {
+            "35": 3,
+            "36": 3,
+            "37": 3
+          },
+          "Branches": []
+        },
+        "System.String CadFuncionario.Domain.Entities.Funcionario::ObterMensagemAniversario()": {
+          "Lines": {
+            "40": 3,
+            "41": 3,
+            "42": 1,
+            "44": 2,
+            "45": 2,
+            "46": 2,
+            "47": 2,
+            "48": 2,
+            "49": 3
+          },
+          "Branches": [
+            {
+              "Line": 41,
+              "Offset": 20,
+              "EndOffset": 22,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 41,
+              "Offset": 20,
+              "EndOffset": 29,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 2
+            },
+            {
+              "Line": 45,
+              "Offset": 65,
+              "EndOffset": 67,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 1
+            },
+            {
+              "Line": 45,
+              "Offset": 65,
+              "EndOffset": 99,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 1
+            },
+            {
+              "Line": 45,
+              "Offset": 97,
+              "EndOffset": 99,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 1
+            },
+            {
+              "Line": 45,
+              "Offset": 97,
+              "EndOffset": 102,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 1
+            }
+          ]
+        },
+        "System.Void CadFuncionario.Domain.Entities.Funcionario::.ctor(System.Guid,System.String,System.String,System.String,System.String,System.Nullable`1<System.DateTime>)": {
+          "Lines": {
+            "8": 9,
+            "9": 9,
+            "10": 9,
+            "11": 9,
+            "12": 9,
+            "13": 9,
+            "14": 9,
+            "15": 9,
+            "16": 9,
+            "17": 9
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\Cursos\\Aulas-PontoSys\\Testes-de-Software\\CadFuncionario\\src\\CadFuncionario.Domain\\Entities\\Profissao.cs": {
+      "CadFuncionario.Domain.Entities.Profissao": {
+        "System.Guid CadFuncionario.Domain.Entities.Profissao::get_ProfissaoId()": {
+          "Lines": {
+            "18": 80
+          },
+          "Branches": []
+        },
+        "System.String CadFuncionario.Domain.Entities.Profissao::get_Descricao()": {
+          "Lines": {
+            "19": 90
+          },
+          "Branches": []
+        },
+        "System.Decimal CadFuncionario.Domain.Entities.Profissao::get_SalarioBase()": {
+          "Lines": {
+            "20": 91
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.ICollection`1<CadFuncionario.Domain.Entities.StepProfissao> CadFuncionario.Domain.Entities.Profissao::get_StepProfissoes()": {
+          "Lines": {
+            "22": 52
+          },
+          "Branches": []
+        },
+        "System.Void CadFuncionario.Domain.Entities.Profissao::AlterarSalarioBase(System.Decimal)": {
+          "Lines": {
+            "25": 1,
+            "26": 1,
+            "27": 1
+          },
+          "Branches": []
+        },
+        "System.Void CadFuncionario.Domain.Entities.Profissao::AlterarDescricao(System.String)": {
+          "Lines": {
+            "30": 1,
+            "31": 1,
+            "32": 1
+          },
+          "Branches": []
+        },
+        "System.Void CadFuncionario.Domain.Entities.Profissao::.ctor(System.Guid,System.String,System.Decimal)": {
+          "Lines": {
+            "9": 56,
+            "10": 56,
+            "11": 56,
+            "12": 56,
+            "13": 56,
+            "14": 56,
+            "15": 56,
+            "16": 56
+          },
+          "Branches": [
+            {
+              "Line": 11,
+              "Offset": 20,
+              "EndOffset": 22,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 40
+            },
+            {
+              "Line": 11,
+              "Offset": 20,
+              "EndOffset": 25,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 16
+            }
+          ]
+        }
+      }
+    },
+    "D:\\Cursos\\Aulas-PontoSys\\Testes-de-Software\\CadFuncionario\\src\\CadFuncionario.Domain\\Entities\\StepProfissao.cs": {
+      "CadFuncionario.Domain.Entities.StepProfissao": {
+        "System.Guid CadFuncionario.Domain.Entities.StepProfissao::get_StepProfissaoId()": {
+          "Lines": {
+            "16": 81
+          },
+          "Branches": []
+        },
+        "System.Guid CadFuncionario.Domain.Entities.StepProfissao::get_ProfissaoId()": {
+          "Lines": {
+            "17": 88
+          },
+          "Branches": []
+        },
+        "System.Decimal CadFuncionario.Domain.Entities.StepProfissao::get_PercentualAumento()": {
+          "Lines": {
+            "18": 92
+          },
+          "Branches": []
+        },
+        "CadFuncionario.Domain.Entities.Profissao CadFuncionario.Domain.Entities.StepProfissao::get_Profissao()": {
+          "Lines": {
+            "20": 23
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.ICollection`1<CadFuncionario.Domain.Entities.Funcionario> CadFuncionario.Domain.Entities.StepProfissao::get_Funcionarios()": {
+          "Lines": {
+            "21": 23
+          },
+          "Branches": []
+        },
+        "System.Void CadFuncionario.Domain.Entities.StepProfissao::AlterarPercentualAumento(System.Decimal)": {
+          "Lines": {
+            "25": 2,
+            "26": 2,
+            "27": 2
+          },
+          "Branches": []
+        },
+        "System.Void CadFuncionario.Domain.Entities.StepProfissao::.ctor(System.Guid,System.Guid,System.Decimal)": {
+          "Lines": {
+            "9": 55,
+            "10": 55,
+            "11": 55,
+            "12": 55,
+            "13": 55,
+            "14": 55
+          },
+          "Branches": [
+            {
+              "Line": 11,
+              "Offset": 20,
+              "EndOffset": 22,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 43
+            },
+            {
+              "Line": 11,
+              "Offset": 20,
+              "EndOffset": 25,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 12
+            }
+          ]
+        }
+      }
+    }
+  },
+  "CadFuncionario.IoC.dll": {
+    "D:\\Cursos\\Aulas-PontoSys\\Testes-de-Software\\CadFuncionario\\src\\CadFuncionario.IoC\\Configuration.cs": {
+      "CadFuncionario.IoC.Configuration": {
+        "System.Void CadFuncionario.IoC.Configuration::RegisterServicesIoc(Microsoft.Extensions.DependencyInjection.IServiceCollection)": {
+          "Lines": {
+            "14": 2,
+            "17": 2,
+            "18": 2,
+            "24": 2,
+            "25": 2,
+            "28": 2
+          },
+          "Branches": []
+        }
+      }
+    }
+  },
+  "CadFuncionario.Validations.dll": {
+    "D:\\Cursos\\Aulas-PontoSys\\Testes-de-Software\\CadFuncionario\\src\\CadFuncionario.Validations\\FuncionarioValidation.cs": {
+      "CadFuncionario.Validations.FuncionarioValidation": {
+        "System.Void CadFuncionario.Validations.FuncionarioValidation::.ctor()": {
+          "Lines": {
+            "8": 3,
+            "9": 3,
+            "10": 3,
+            "11": 3,
+            "13": 3,
+            "14": 3,
+            "15": 3,
+            "17": 3,
+            "18": 3,
+            "19": 3,
+            "21": 3,
+            "22": 3,
+            "23": 3,
+            "25": 3,
+            "26": 3,
+            "27": 3,
+            "28": 3
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\Cursos\\Aulas-PontoSys\\Testes-de-Software\\CadFuncionario\\src\\CadFuncionario.Validations\\ProfissaoValidation.cs": {
+      "CadFuncionario.Validations.ProfissaoValidation": {
+        "System.Void CadFuncionario.Validations.ProfissaoValidation::.ctor(System.Boolean)": {
+          "Lines": {
+            "8": 11,
+            "9": 11,
+            "10": 11,
+            "11": 11,
+            "12": 11,
+            "14": 11,
+            "15": 11,
+            "17": 11,
+            "18": 8,
+            "19": 8,
+            "20": 11
+          },
+          "Branches": [
+            {
+              "Line": 17,
+              "Offset": 189,
+              "EndOffset": 191,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 8
+            },
+            {
+              "Line": 17,
+              "Offset": 189,
+              "EndOffset": 270,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 11
+            }
+          ]
+        }
+      }
+    },
+    "D:\\Cursos\\Aulas-PontoSys\\Testes-de-Software\\CadFuncionario\\src\\CadFuncionario.Validations\\StepProfissaoValidation.cs": {
+      "CadFuncionario.Validations.StepProfissaoValidation": {
+        "System.Void CadFuncionario.Validations.StepProfissaoValidation::.ctor()": {
+          "Lines": {
+            "8": 16,
+            "9": 16,
+            "10": 16,
+            "11": 16,
+            "13": 16,
+            "14": 16,
+            "15": 16
+          },
+          "Branches": []
+        }
+      }
+    }
+  }
+}
