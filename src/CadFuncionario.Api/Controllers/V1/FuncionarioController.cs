@@ -32,7 +32,7 @@ namespace CadFuncionario.Api.Controllers.V1
         }
 
         [HttpGet("Obter/{funcionarioId}")]
-        public async Task<ActionResult<Funcionario>> Obter([FromBody] Guid funcionarioId)
+        public async Task<ActionResult<Funcionario>> Obter(Guid funcionarioId)
         {
             return Result(await _funcionarioAppService.ObterAsync(funcionarioId));
         }

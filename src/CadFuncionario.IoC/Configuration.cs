@@ -16,6 +16,7 @@ namespace CadFuncionario.IoC
 
             serviceCollection.AddScoped<INotificationService, NotificationService>();
             serviceCollection.AddScoped<IProfissaoAppService, ProfissaoAppService>();
+            serviceCollection.AddScoped<IFuncionarioAppService, FuncionarioAppService>();
 
             #endregion
 

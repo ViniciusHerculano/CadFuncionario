@@ -12,7 +12,8 @@ namespace CadFuncionario.Application
     public class FuncionarioAppService : AppServiceBase, IFuncionarioAppService
     {
         private readonly IFuncionarioRepository _funcionarioRepository;
-        public FuncionarioAppService(INotificationService notificationService, IFuncionarioRepository funcionarioRepository) : base(notificationService)
+        public FuncionarioAppService(INotificationService notificationService, IFuncionarioRepository funcionarioRepository)
+            : base(notificationService)
         {
             _funcionarioRepository = funcionarioRepository;
         }

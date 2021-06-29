@@ -27,9 +27,15 @@ namespace CadFuncionario.Api.Tests
         {
             //Arrange
             var faker = _testsFixture.Faker;
+
+            var profissao = MontarProfissao();
+            _testsFixture.ProfissaoId = profissao.ProfissaoId;
+            var stepProfissao = MontarStepProfissao();
+            _testsFixture.StepProfissaoId = stepProfissao.StepProfissaoId;
+
             var funcionario = new Funcionario(
             faker.Random.Guid(),
-            faker.Random.Guid(),
+            _testsFixture.StepProfissaoId,
             faker.Person.Cpf(false),
             faker.Address.ZipCode(),
             faker.Person.FullName,
@@ -39,6 +45,8 @@ namespace CadFuncionario.Api.Tests
             _testsFixture.FuncionarioId = funcionario.FuncionarioId;
 
             //Act
+            await _testsFixture.Client.PostAsJsonAsync("api/profissao/adicionar", profissao);
+            await _testsFixture.Client.PostAsJsonAsync("api/profissao/adicionarstep", stepProfissao);
             var response = await _testsFixture.Client
             .PostAsJsonAsync("api/funcionario/adicionar", funcionario);
 
@@ -49,25 +57,7 @@ namespace CadFuncionario.Api.Tests
             Assert.True(retornoApi);
         }
 
-        [Fact(DisplayName = "Atualizar funcionario"), TestPriority(2)]
-        [Trait("Grupo", "IntegracaoAPI")]
-        public async Task FuncionarioController_Atualizar()
-        {
-            //Arrange
-            _testsFixture.FuncionarioApi.AlterarDataNascimento(DateTime.Now);
-
-            //Act
-            var response = await _testsFixture.Client
-            .PostAsJsonAsync("api/funcionario/atualizar", _testsFixture.FuncionarioApi);
-
-            //Assert
-            response.EnsureSuccessStatusCode();
-
-            var retornoApi = await response.Content.ReadAsAsync<bool>();
-            Assert.True(retornoApi);
-        }
-
-        [Fact(DisplayName = "Obter funcionario"), TestPriority(3)]
+        [Fact(DisplayName = "Obter funcionario"), TestPriority(2)]
         [Trait("Grupo", "IntegracaoAPI")]
         public async Task FuncionarioController_Obter()
         {
@@ -84,6 +74,26 @@ namespace CadFuncionario.Api.Tests
             Assert.NotEqual(Guid.Empty, _testsFixture.FuncionarioApi.FuncionarioId);
         }
 
+        [Fact(DisplayName = "Atualizar funcionario"), TestPriority(3)]
+        [Trait("Grupo", "IntegracaoAPI")]
+        public async Task FuncionarioController_Atualizar()
+        {
+            //Arrange
+            _testsFixture.FuncionarioApi.AlterarDataNascimento(DateTime.Now);
+
+            //Act
+            var response = await _testsFixture.Client
+            .PutAsJsonAsync("api/funcionario/atualizar", _testsFixture.FuncionarioApi);
+
+            //Assert
+            response.EnsureSuccessStatusCode();
+
+            var retornoApi = await response.Content.ReadAsAsync<bool>();
+            Assert.True(retornoApi);
+        }
+
+
+
         [Fact(DisplayName = "Obter todos os funcionarios"), TestPriority(4)]
         [Trait("Grupo", "IntegracaoAPI")]
         public async Task FuncionarioController_ObterTodos()
@@ -98,6 +108,20 @@ namespace CadFuncionario.Api.Tests
             var listaFuncionarios = await response.Content.ReadAsAsync<List<Funcionario>>();
 
             Assert.NotEmpty(listaFuncionarios);
+        }
+
+        private StepProfissao MontarStepProfissao()
+        {
+            var faker = _testsFixture.Faker;
+            return new StepProfissao(Guid.Empty, _testsFixture.ProfissaoId,
+                faker.Random.Decimal(5, 20));
+        }
+
+        private Profissao MontarProfissao()
+        {
+            var faker = _testsFixture.Faker;
+            return new Profissao(Guid.Empty, faker.Company.CompanyName(),
+                faker.Random.Decimal(1000, 5000));
         }
     }
 }
