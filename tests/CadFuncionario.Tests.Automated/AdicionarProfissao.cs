@@ -24,7 +24,7 @@ namespace CadFuncionario.Tests.Automated
             _driver = new ChromeDriver(Directory.GetCurrentDirectory(), options);
             _wait = new WebDriverWait(_driver, TimeSpan.FromSeconds(0.5));
             _driver.Manage().Window.Maximize();
-            _driver.Navigate().GoToUrl("http://localhost/cadfuncionario");
+            _driver.Navigate().GoToUrl("http://localhost");
         }
 
         [Fact(DisplayName = "Adicionar profissao com sucesso")]

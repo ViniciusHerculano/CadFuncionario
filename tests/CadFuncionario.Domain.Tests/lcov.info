@@ -1,4 +1,4 @@
-SF:d:\Cursos\Aulas-PontoSys\Testes-de-Software\CadFuncionario\src\CadFuncionario.Core\Services\NotificationService.cs
+SF:D:\Cursos\Aulas-PontoSys\Testes-de-Software\CadFuncionario\src\CadFuncionario.Core\Services\NotificationService.cs
 FN:18,System.Void CadFuncionario.Core.Services.NotificationService::Add(CadFuncionario.Core.DomainObjects.NotificationMessage)
 FNDA:0,System.Void CadFuncionario.Core.Services.NotificationService::Add(CadFuncionario.Core.DomainObjects.NotificationMessage)
 DA:19,0
@@ -30,7 +30,7 @@ BRH:0
 FNF:6
 FNH:0
 end_of_record
-SF:d:\Cursos\Aulas-PontoSys\Testes-de-Software\CadFuncionario\src\CadFuncionario.Core\DomainObjects\NotificationMessage.cs
+SF:D:\Cursos\Aulas-PontoSys\Testes-de-Software\CadFuncionario\src\CadFuncionario.Core\DomainObjects\NotificationMessage.cs
 FN:9,System.String CadFuncionario.Core.DomainObjects.NotificationMessage::get_Message()
 FNDA:0,System.String CadFuncionario.Core.DomainObjects.NotificationMessage::get_Message()
 DA:10,0
@@ -47,60 +47,60 @@ BRH:0
 FNF:2
 FNH:0
 end_of_record
-SF:D:\Cursos\Aulas-PontoSys\Testes-de-Software\CadFuncionario\src\CadFuncionario.Domain\Entities\Funcionario.cs
-FN:18,System.Guid CadFuncionario.Domain.Entities.Funcionario::get_FuncionarioId()
+SF:D:\ARQUIVOS\Imagens\CadFuncionario\src\CadFuncionario.Domain\Entities\Funcionario.cs
+FN:20,System.Guid CadFuncionario.Domain.Entities.Funcionario::get_FuncionarioId()
 FNDA:7,System.Guid CadFuncionario.Domain.Entities.Funcionario::get_FuncionarioId()
-DA:19,7
-FN:19,System.Guid CadFuncionario.Domain.Entities.Funcionario::get_StepProfissaoId()
+DA:21,7
+FN:21,System.Guid CadFuncionario.Domain.Entities.Funcionario::get_StepProfissaoId()
 FNDA:9,System.Guid CadFuncionario.Domain.Entities.Funcionario::get_StepProfissaoId()
-DA:20,9
-FN:20,System.String CadFuncionario.Domain.Entities.Funcionario::get_Cpf()
+DA:22,9
+FN:22,System.String CadFuncionario.Domain.Entities.Funcionario::get_Cpf()
 FNDA:6,System.String CadFuncionario.Domain.Entities.Funcionario::get_Cpf()
-DA:21,6
-FN:21,System.String CadFuncionario.Domain.Entities.Funcionario::get_Rg()
-FNDA:6,System.String CadFuncionario.Domain.Entities.Funcionario::get_Rg()
-DA:22,6
-FN:22,System.String CadFuncionario.Domain.Entities.Funcionario::get_Nome()
-FNDA:6,System.String CadFuncionario.Domain.Entities.Funcionario::get_Nome()
 DA:23,6
-FN:23,System.String CadFuncionario.Domain.Entities.Funcionario::get_Ctps()
-FNDA:6,System.String CadFuncionario.Domain.Entities.Funcionario::get_Ctps()
+FN:23,System.String CadFuncionario.Domain.Entities.Funcionario::get_Rg()
+FNDA:6,System.String CadFuncionario.Domain.Entities.Funcionario::get_Rg()
 DA:24,6
-FN:24,System.Nullable`1<System.DateTime> CadFuncionario.Domain.Entities.Funcionario::get_DataNascimento()
+FN:24,System.String CadFuncionario.Domain.Entities.Funcionario::get_Nome()
+FNDA:6,System.String CadFuncionario.Domain.Entities.Funcionario::get_Nome()
+DA:25,6
+FN:25,System.String CadFuncionario.Domain.Entities.Funcionario::get_Ctps()
+FNDA:6,System.String CadFuncionario.Domain.Entities.Funcionario::get_Ctps()
+DA:26,6
+FN:26,System.Nullable`1<System.DateTime> CadFuncionario.Domain.Entities.Funcionario::get_DataNascimento()
 FNDA:18,System.Nullable`1<System.DateTime> CadFuncionario.Domain.Entities.Funcionario::get_DataNascimento()
-DA:25,18
-FN:26,CadFuncionario.Domain.Entities.StepProfissao CadFuncionario.Domain.Entities.Funcionario::get_StepProfissao()
+DA:27,18
+FN:28,CadFuncionario.Domain.Entities.StepProfissao CadFuncionario.Domain.Entities.Funcionario::get_StepProfissao()
 FNDA:0,CadFuncionario.Domain.Entities.StepProfissao CadFuncionario.Domain.Entities.Funcionario::get_StepProfissao()
-DA:27,0
-FN:29,System.Void CadFuncionario.Domain.Entities.Funcionario::AlterarStep(System.Guid)
+DA:29,0
+FN:31,System.Void CadFuncionario.Domain.Entities.Funcionario::AlterarStep(System.Guid)
 FNDA:1,System.Void CadFuncionario.Domain.Entities.Funcionario::AlterarStep(System.Guid)
-DA:30,1
-DA:31,1
 DA:32,1
-FN:34,System.Void CadFuncionario.Domain.Entities.Funcionario::AlterarDataNascimento(System.Nullable`1<System.DateTime>)
+DA:33,1
+DA:34,1
+FN:36,System.Void CadFuncionario.Domain.Entities.Funcionario::AlterarDataNascimento(System.Nullable`1<System.DateTime>)
 FNDA:2,System.Void CadFuncionario.Domain.Entities.Funcionario::AlterarDataNascimento(System.Nullable`1<System.DateTime>)
-DA:35,2
-DA:36,2
 DA:37,2
-FN:39,System.String CadFuncionario.Domain.Entities.Funcionario::ObterMensagemAniversario()
+DA:38,2
+DA:39,2
+FN:41,System.String CadFuncionario.Domain.Entities.Funcionario::ObterMensagemAniversario()
 FNDA:3,System.String CadFuncionario.Domain.Entities.Funcionario::ObterMensagemAniversario()
-DA:40,3
-DA:41,3
-DA:42,1
-DA:44,2
-DA:45,2
+DA:42,3
+DA:43,3
+DA:44,1
 DA:46,2
 DA:47,2
 DA:48,2
-DA:49,3
-BRDA:41,20,0,1
-BRDA:41,20,1,2
-BRDA:45,65,0,1
-BRDA:45,65,1,1
-BRDA:45,97,0,1
-BRDA:45,97,1,1
-FN:7,System.Void CadFuncionario.Domain.Entities.Funcionario::.ctor(System.Guid,System.String,System.String,System.String,System.String,System.Nullable`1<System.DateTime>)
-FNDA:6,System.Void CadFuncionario.Domain.Entities.Funcionario::.ctor(System.Guid,System.String,System.String,System.String,System.String,System.Nullable`1<System.DateTime>)
+DA:49,2
+DA:50,2
+DA:51,3
+BRDA:43,20,0,1
+BRDA:43,20,1,2
+BRDA:47,65,0,1
+BRDA:47,65,1,1
+BRDA:47,97,0,1
+BRDA:47,97,1,1
+FN:7,System.Void CadFuncionario.Domain.Entities.Funcionario::.ctor(System.Guid,System.Guid,System.String,System.String,System.String,System.String,System.Nullable`1<System.DateTime>)
+FNDA:6,System.Void CadFuncionario.Domain.Entities.Funcionario::.ctor(System.Guid,System.Guid,System.String,System.String,System.String,System.String,System.Nullable`1<System.DateTime>)
 DA:8,6
 DA:9,6
 DA:10,6
@@ -111,14 +111,18 @@ DA:14,6
 DA:15,6
 DA:16,6
 DA:17,6
-LF:33
-LH:32
-BRF:6
-BRH:6
+DA:18,6
+DA:19,6
+BRDA:10,20,0,0
+BRDA:10,20,1,6
+LF:35
+LH:34
+BRF:8
+BRH:7
 FNF:12
 FNH:11
 end_of_record
-SF:D:\Cursos\Aulas-PontoSys\Testes-de-Software\CadFuncionario\src\CadFuncionario.Domain\Entities\Profissao.cs
+SF:D:\ARQUIVOS\Imagens\CadFuncionario\src\CadFuncionario.Domain\Entities\Profissao.cs
 FN:17,System.Guid CadFuncionario.Domain.Entities.Profissao::get_ProfissaoId()
 FNDA:3,System.Guid CadFuncionario.Domain.Entities.Profissao::get_ProfissaoId()
 DA:18,3
@@ -160,7 +164,7 @@ BRH:1
 FNF:7
 FNH:5
 end_of_record
-SF:D:\Cursos\Aulas-PontoSys\Testes-de-Software\CadFuncionario\src\CadFuncionario.Domain\Entities\StepProfissao.cs
+SF:D:\ARQUIVOS\Imagens\CadFuncionario\src\CadFuncionario.Domain\Entities\StepProfissao.cs
 FN:15,System.Guid CadFuncionario.Domain.Entities.StepProfissao::get_StepProfissaoId()
 FNDA:3,System.Guid CadFuncionario.Domain.Entities.StepProfissao::get_StepProfissaoId()
 DA:16,3
